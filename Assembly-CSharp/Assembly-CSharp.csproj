@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{043568F3-8077-4E80-9EA7-77808B244395}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BadWordFilter">
+      <HintPath>..\..\files\PokeOne_Data\Managed\BadWordFilter.dll</HintPath>
+    </Reference>
+    <Reference Include="MAPAPI">
+      <HintPath>..\..\files\PokeOne_Data\Managed\MAPAPI-cleaned.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\files\PokeOne_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PSXAPI">
+      <HintPath>..\..\files\PokeOne_Data\Managed\PSXAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\files\PokeOne_Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\files\PokeOne_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>..\..\files\PokeOne_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-PrivateImplementationDetails-{4975DC3F-D027-44F1-9B23-C1DF889CD4D0}\__BB_OBFUSCATOR_VERSION_1_26_0.cs" />
+    <Compile Include="AnimatedUVs.cs" />
+    <Compile Include="AnimateHealing.cs" />
+    <Compile Include="AnimateServerRack.cs" />
+    <Compile Include="AnimateSheet.cs" />
+    <Compile Include="AnimateUVs2.cs" />
+    <Compile Include="BattleAnimator.cs" />
+    <Compile Include="BBNHHPICPIF.cs" />
+    <Compile Include="BDEJHNHLLOL.cs" />
+    <Compile Include="BDKKQDGJJFC.cs" />
+    <Compile Include="BDKMFJQPGGE.cs" />
+    <Compile Include="BDLNNJFQOQH.cs" />
+    <Compile Include="BEEPDKNHMLM.cs" />
+    <Compile Include="BELIHNPIMPP.cs" />
+    <Compile Include="BFKFEDPKDHL.cs" />
+    <Compile Include="BGNNCFDMHLN.cs" />
+    <Compile Include="BHLIGEGNFHG.cs" />
+    <Compile Include="BIDEQKEELPD.cs" />
+    <Compile Include="Billboard.cs" />
+    <Compile Include="BJLJHNOFGLD.cs" />
+    <Compile Include="BJMBMMBMQHQ.cs" />
+    <Compile Include="BJQGLGOLMPQ.cs" />
+    <Compile Include="BKIDEFQEKGK.cs" />
+    <Compile Include="BKKHLBCLPJM.cs" />
+    <Compile Include="BLMNBILNMOE.cs" />
+    <Compile Include="BLOLKDOFJOQ.cs" />
+    <Compile Include="BMFont.cs" />
+    <Compile Include="BMGlyph.cs" />
+    <Compile Include="BMIMILDNJNC.cs" />
+    <Compile Include="BMLIGLPMMLG.cs" />
+    <Compile Include="BMNBILHJHGP.cs" />
+    <Compile Include="BMSymbol.cs" />
+    <Compile Include="BNEEOLPINMC.cs" />
+    <Compile Include="BNEFIOCKQOE.cs" />
+    <Compile Include="BNHEQQQJDKK.cs" />
+    <Compile Include="BNIJKFJBFBG.cs" />
+    <Compile Include="BNJJIOHLOIC.cs" />
+    <Compile Include="BNONQIJFFHP.cs" />
+    <Compile Include="BOEPPFIFDPI.cs" />
+    <Compile Include="BOKKELPHNHD.cs" />
+    <Compile Include="BONPIMMIEOJ.cs" />
+    <Compile Include="BPLKJMJMHFI.cs" />
+    <Compile Include="CDFDIPLCNNM.cs" />
+    <Compile Include="CDKMMEPDJIF.cs" />
+    <Compile Include="CDLKIQJJHKE.cs" />
+    <Compile Include="CDLNFMKQOLO.cs" />
+    <Compile Include="CFDMNELIJLO.cs" />
+    <Compile Include="CFMPGHDJJBC.cs" />
+    <Compile Include="CFQKPMGLMJN.cs" />
+    <Compile Include="CGHQINJOPKL.cs" />
+    <Compile Include="CGINEOGDPGP.cs" />
+    <Compile Include="CGNFQJPJEPC.cs" />
+    <Compile Include="CGOIPHKQMPD.cs" />
+    <Compile Include="CHFPDQEKFEE.cs" />
+    <Compile Include="CIDNHCPOQIE.cs" />
+    <Compile Include="CIKGJLEIPCG.cs" />
+    <Compile Include="CIPCDJPQQLM.cs" />
+    <Compile Include="CKHCPIJINBC.cs" />
+    <Compile Include="CKJHBJIMMKH.cs" />
+    <Compile Include="CKMLKNPNPQO.cs" />
+    <Compile Include="CLQIOKJENKD.cs" />
+    <Compile Include="CNCJKLNHQBH.cs" />
+    <Compile Include="COCFMDFKNIH.cs" />
+    <Compile Include="Com\LuisPedroFonseca\ProCamera2D\CameraTarget.cs" />
+    <Compile Include="Com\LuisPedroFonseca\ProCamera2D\CinematicEvent.cs" />
+    <Compile Include="Com\LuisPedroFonseca\ProCamera2D\CinematicTarget.cs" />
+    <Compile Include="Com\LuisPedroFonseca\ProCamera2D\ConstantShakeLayer.cs" />
+    <Compile Include="Com\LuisPedroFonseca\ProCamera2D\ConstantShakePreset.cs" />
+    <Compile Include="Com\LuisPedroFonseca\ProCamera2D\ProCamera2DParallaxLayer.cs" />
+    <Compile Include="Com\LuisPedroFonseca\ProCamera2D\Room.cs" />
+    <Compile Include="Com\LuisPedroFonseca\ProCamera2D\RoomEvent.cs" />
+    <Compile Include="Com\LuisPedroFonseca\ProCamera2D\ShakePreset.cs" />
+    <Compile Include="Convex.cs" />
+    <Compile Include="CPECQNNKCKM.cs" />
+    <Compile Include="CPFJGCCFHPN.cs" />
+    <Compile Include="CPLHOLGBMKB.cs" />
+    <Compile Include="CQGKGFQLBDB.cs" />
+    <Compile Include="CQJLFMIGKNQ.cs" />
+    <Compile Include="CQJQMOGQFKI.cs" />
+    <Compile Include="CQLGNCIGPLG.cs" />
+    <Compile Include="DBNMEGNMIDG.cs" />
+    <Compile Include="DBQCFOCIHOF.cs" />
+    <Compile Include="DBQLOHBBJMG.cs" />
+    <Compile Include="DCCFQPDFBFO.cs" />
+    <Compile Include="DCJIBBJQGJP.cs" />
+    <Compile Include="DCKCEQMMONE.cs" />
+    <Compile Include="DEGCNCMNOPB.cs" />
+    <Compile Include="DFJHPCQKHKO.cs" />
+    <Compile Include="DGDPMJMPKIQ.cs" />
+    <Compile Include="DGGJBHMMJDK.cs" />
+    <Compile Include="DJOOHHIQGJK.cs" />
+    <Compile Include="DJQEIOQELPJ.cs" />
+    <Compile Include="DLKMPHHMKIQ.cs" />
+    <Compile Include="DLLHHQIIIMQ.cs" />
+    <Compile Include="DMOBJPKCPJP.cs" />
+    <Compile Include="DMPKJFPCKPC.cs" />
+    <Compile Include="DNFENPQLICQ.cs" />
+    <Compile Include="DOJNBQQBCQJ.cs" />
+    <Compile Include="DOMONILEIKL.cs" />
+    <Compile Include="DoorAnimator.cs" />
+    <Compile Include="DOQMQKHFODD.cs" />
+    <Compile Include="DPFCQGKGQLL.cs" />
+    <Compile Include="DPIOOKQMQIE.cs" />
+    <Compile Include="DPNKHLLMLQP.cs" />
+    <Compile Include="DQLHHFEDBJG.cs" />
+    <Compile Include="DynamicFogAndMist\DynamicFogProfile.cs" />
+    <Compile Include="EBBMJNQGLJC.cs" />
+    <Compile Include="EBIBBQGNCFH.cs" />
+    <Compile Include="ECEGGIKJDGM.cs" />
+    <Compile Include="EDHHEKQIDCM.cs" />
+    <Compile Include="EDKGFBQJPEP.cs" />
+    <Compile Include="EELQMKIMGNM.cs" />
+    <Compile Include="EFEGLGQQDBK.cs" />
+    <Compile Include="EGGLDDLQLME.cs" />
+    <Compile Include="EGOMLFPFGNO.cs" />
+    <Compile Include="EHDQKOBOHPE.cs" />
+    <Compile Include="EHPFDCDGEEL.cs" />
+    <Compile Include="EHQLQQGFDKD.cs" />
+    <Compile Include="EIDBQCPLPIL.cs" />
+    <Compile Include="EIGLJMLJKQQ.cs" />
+    <Compile Include="EJLOOOGPHOP.cs" />
+    <Compile Include="EJPDFCKMPLE.cs" />
+    <Compile Include="EKLFDOKCPLN.cs" />
+    <Compile Include="EKNKKNEBCQG.cs" />
+    <Compile Include="ELJODBBEIPN.cs" />
+    <Compile Include="ELPDNBFIKBP.cs" />
+    <Compile Include="EMENMKHBPQE.cs" />
+    <Compile Include="EMINMFBBCFI.cs" />
+    <Compile Include="EMLOFJDOMKH.cs" />
+    <Compile Include="ENEINMKKFHQ.cs" />
+    <Compile Include="ENFMCDNLEQQ.cs" />
+    <Compile Include="ENGMLFILDLF.cs" />
+    <Compile Include="ENMOIEBMHNJ.cs" />
+    <Compile Include="EODGHGDGKLC.cs" />
+    <Compile Include="EOJDINKLMIF.cs" />
+    <Compile Include="EPDCKMIFFEE.cs" />
+    <Compile Include="EPIJJNOIKEK.cs" />
+    <Compile Include="EventDelegate.cs" />
+    <Compile Include="FBJQLFQPGDE.cs" />
+    <Compile Include="FBOJBLGIQHJ.cs" />
+    <Compile Include="FCBIDGKJFGO.cs" />
+    <Compile Include="FCJPPQICFGF.cs" />
+    <Compile Include="FDGBELCFEDF.cs" />
+    <Compile Include="FDHGDIFNJLI.cs" />
+    <Compile Include="FDLBHMKQHJB.cs" />
+    <Compile Include="FDNDOKLBBNE.cs" />
+    <Compile Include="FEBIFLIPQDC.cs" />
+    <Compile Include="FENGGFKHMOE.cs" />
+    <Compile Include="FFMEDEIIJOC.cs" />
+    <Compile Include="FGCFCPNIMQB.cs" />
+    <Compile Include="FGEMIHEDIMP.cs" />
+    <Compile Include="FGIJJCBFPFJ.cs" />
+    <Compile Include="FGJGBIFFGCP.cs" />
+    <Compile Include="FGKCFBICELQ.cs" />
+    <Compile Include="FHJJBLNPJBI.cs" />
+    <Compile Include="FICELJKFLNK.cs" />
+    <Compile Include="FINHCKBDLMF.cs" />
+    <Compile Include="FJMDNFFFEJF.cs" />
+    <Compile Include="FJNDMGFJBPP.cs" />
+    <Compile Include="FKBFPICKJQG.cs" />
+    <Compile Include="FKEOGPQGMLC.cs" />
+    <Compile Include="FNHCOCLFCFE.cs" />
+    <Compile Include="FNHGJGQIPOH.cs" />
+    <Compile Include="FOFDHFBCNKC.cs" />
+    <Compile Include="FPEMPFLGJED.cs" />
+    <Compile Include="FPMCQNCDOIP.cs" />
+    <Compile Include="FQOQFDBGBPH.cs" />
+    <Compile Include="FX.cs" />
+    <Compile Include="GBQODOBKJBG.cs" />
+    <Compile Include="GCBBFLFGHBG.cs" />
+    <Compile Include="GCMCBQGMNIH.cs" />
+    <Compile Include="GDDKPIHHICF.cs" />
+    <Compile Include="GDNBFQGCHQQ.cs" />
+    <Compile Include="GDNKQBHJHCP.cs" />
+    <Compile Include="GDPDJBOLPLN.cs" />
+    <Compile Include="GEEJMLDGDED.cs" />
+    <Compile Include="GFGLQFHLHNC.cs" />
+    <Compile Include="GFHGEJNHLFQ.cs" />
+    <Compile Include="GFJGCGGGJOJ.cs" />
+    <Compile Include="GFQOBFDNNFN.cs" />
+    <Compile Include="GGGPJQEKNJD.cs" />
+    <Compile Include="GGQKBGDGNJN.cs" />
+    <Compile Include="GHBIMQCKMEJ.cs" />
+    <Compile Include="GIQOIOMOGIK.cs" />
+    <Compile Include="GJDMGKCLQNQ.cs" />
+    <Compile Include="GJGCJNOICOM.cs" />
+    <Compile Include="GKDCBJPLQLQ.cs" />
+    <Compile Include="GKGFHHOBPKH.cs" />
+    <Compile Include="GKKIEDPNJIF.cs" />
+    <Compile Include="GLDMQOIQDJD.cs" />
+    <Compile Include="GLFJNQBJBOK.cs" />
+    <Compile Include="GMNJJQQPEDB.cs" />
+    <Compile Include="GNDQBCBDHKD.cs" />
+    <Compile Include="GNKDCOHMFEG.cs" />
+    <Compile Include="GPHDNEBKDPL.cs" />
+    <Compile Include="GQFBCEDOMGI.cs" />
+    <Compile Include="GQFGBNEHHPC.cs" />
+    <Compile Include="HBPGCDGMNMN.cs" />
+    <Compile Include="HCEEMKFECPJ.cs" />
+    <Compile Include="HCKCDDQBDQD.cs" />
+    <Compile Include="HDLEIMONFCK.cs" />
+    <Compile Include="HDQHPMCPDNJ.cs" />
+    <Compile Include="HealingBalls.cs" />
+    <Compile Include="HELQOJBMFOI.cs" />
+    <Compile Include="HFCMDEQKCKH.cs" />
+    <Compile Include="HGJLIKPBOHB.cs" />
+    <Compile Include="HGKDOCCIIGI.cs" />
+    <Compile Include="HGOHLFJHLIC.cs" />
+    <Compile Include="HHDNDIHQCJI.cs" />
+    <Compile Include="HICINJKHLNP.cs" />
+    <Compile Include="HIGDGKQHKIF.cs" />
+    <Compile Include="HIHLKCDEBLN.cs" />
+    <Compile Include="HILOLOEJJHF.cs" />
+    <Compile Include="HIOMOLCBDNP.cs" />
+    <Compile Include="HJEBNGLIQBQ.cs" />
+    <Compile Include="HJQLOEMJDMC.cs" />
+    <Compile Include="HKJFNMFPCMB.cs" />
+    <Compile Include="HKNEJFDDEDH.cs" />
+    <Compile Include="HLEKPGPJOOK.cs" />
+    <Compile Include="HOGFKIHPCME.cs" />
+    <Compile Include="IBJOGQJFQEP.cs" />
+    <Compile Include="ICCMGLOHBQI.cs" />
+    <Compile Include="IEMKEPEKMFN.cs" />
+    <Compile Include="IFKPFNPIKCM.cs" />
+    <Compile Include="IGKDFKKIJKH.cs" />
+    <Compile Include="IGOPMPKCLPO.cs" />
+    <Compile Include="IHFHDGMNBJF.cs" />
+    <Compile Include="IJHOQLBFIQI.cs" />
+    <Compile Include="IKBQNBHOJJB.cs" />
+    <Compile Include="IKPMPLEFGCC.cs" />
+    <Compile Include="ILJNMOPNGQD.cs" />
+    <Compile Include="IMEPOBPPQBB.cs" />
+    <Compile Include="IMKCQDFNGBD.cs" />
+    <Compile Include="INFJMNPKNQF.cs" />
+    <Compile Include="InvBaseItem.cs" />
+    <Compile Include="InvGameItem.cs" />
+    <Compile Include="InvStat.cs" />
+    <Compile Include="IOBPBHFNNOM.cs" />
+    <Compile Include="IPHBCBQFPOI.cs" />
+    <Compile Include="IPJFFGJJFHL.cs" />
+    <Compile Include="IPJJJNHPFHB.cs" />
+    <Compile Include="IPJMEFQFFND.cs" />
+    <Compile Include="IPPMCDQNMML.cs" />
+    <Compile Include="JBEFDGKLJHP.cs" />
+    <Compile Include="JBEJFEQNEIQ.cs" />
+    <Compile Include="JBGLEFPOLGP.cs" />
+    <Compile Include="JCHHLCFOCFI.cs" />
+    <Compile Include="JCHLNFMGJIN.cs" />
+    <Compile Include="JCQFGICFNEO.cs" />
+    <Compile Include="JDCJNQFJOLF.cs" />
+    <Compile Include="JDKHFFPKHJC.cs" />
+    <Compile Include="JDMOPNEKJII.cs" />
+    <Compile Include="JECQIFOKKGG.cs" />
+    <Compile Include="JFDJLDBQQKC.cs" />
+    <Compile Include="JFIBMMBLFDO.cs" />
+    <Compile Include="JGDHIPBGCFP.cs" />
+    <Compile Include="JICJEENBPEO.cs" />
+    <Compile Include="JIMBBPLINGI.cs" />
+    <Compile Include="JJBPOILPCBD.cs" />
+    <Compile Include="JJGLMJNELOK.cs" />
+    <Compile Include="JJMDJDFJKLO.cs" />
+    <Compile Include="JJNIJBBNLNC.cs" />
+    <Compile Include="JKHBHPONFOL.cs" />
+    <Compile Include="JKKJMOGLOOL.cs" />
+    <Compile Include="JKQPIHPQDHQ.cs" />
+    <Compile Include="JLCINGQBJPJ.cs" />
+    <Compile Include="JLMPBLMOICG.cs" />
+    <Compile Include="JMIBGPONGPJ.cs" />
+    <Compile Include="JMIOBJFFGBN.cs" />
+    <Compile Include="JNLLDFGOFKP.cs" />
+    <Compile Include="JNNGOIIKENH.cs" />
+    <Compile Include="JODNLMLDQLE.cs" />
+    <Compile Include="JPLEJEJKBCB.cs" />
+    <Compile Include="JPPCMGBCNNJ.cs" />
+    <Compile Include="JQDMHCBHNBD.cs" />
+    <Compile Include="JQNGHHMIMEK.cs" />
+    <Compile Include="JQNKICKLJLL.cs" />
+    <Compile Include="JQOIHHDIHBN.cs" />
+    <Compile Include="KBCEDGOCEJQ.cs" />
+    <Compile Include="KBIJFBOECFE.cs" />
+    <Compile Include="KCCFIMCDFDQ.cs" />
+    <Compile Include="KDEHEGPKFBP.cs" />
+    <Compile Include="KDGHILICJGN.cs" />
+    <Compile Include="KDIEKDCQIHM.cs" />
+    <Compile Include="KDJLKQQBGNE.cs" />
+    <Compile Include="KDMBLOFFMFG.cs" />
+    <Compile Include="KEHIBOMLMLC.cs" />
+    <Compile Include="KEIGFGDMQBF.cs" />
+    <Compile Include="KGEGJOJGHMG.cs" />
+    <Compile Include="KGJGOEICIJE.cs" />
+    <Compile Include="KGKLCNDOLMP.cs" />
+    <Compile Include="KGQECFKLKOP.cs" />
+    <Compile Include="KIJNOLJFPLK.cs" />
+    <Compile Include="KIQKEMNELKN.cs" />
+    <Compile Include="KJBDMOCFMCM.cs" />
+    <Compile Include="KJCGBOJGOHC.cs" />
+    <Compile Include="KJMPLFDOBCO.cs" />
+    <Compile Include="KJOKMDLJNNE.cs" />
+    <Compile Include="KKPFGFEEGOM.cs" />
+    <Compile Include="KMCGDKDIJIE.cs" />
+    <Compile Include="KMPQJILNION.cs" />
+    <Compile Include="KOBKEQBGOCM.cs" />
+    <Compile Include="KOFGLMFECJE.cs" />
+    <Compile Include="KOHKLONPFMM.cs" />
+    <Compile Include="KOJBBGEINPH.cs" />
+    <Compile Include="KQECKBOKHHE.cs" />
+    <Compile Include="KQHJOLQLQBJ.cs" />
+    <Compile Include="LBDMDNMJINK.cs" />
+    <Compile Include="LBQEHMJLGOC.cs" />
+    <Compile Include="LCBQFQDLLEB.cs" />
+    <Compile Include="LDJNOJQFFJE.cs" />
+    <Compile Include="LELCIPBNCCB.cs" />
+    <Compile Include="LFEMGHQGCKK.cs" />
+    <Compile Include="LFKOPJPKLOM.cs" />
+    <Compile Include="LGJGBKJCKPH.cs" />
+    <Compile Include="LHECDEBMFHC.cs" />
+    <Compile Include="LHHQGIHGPBF.cs" />
+    <Compile Include="LHPLMFFMEIJ.cs" />
+    <Compile Include="LIJCFDMDDIJ.cs" />
+    <Compile Include="LINELKKDMEE.cs" />
+    <Compile Include="LJHDEFDGMCP.cs" />
+    <Compile Include="LJMJFHFGPJK.cs" />
+    <Compile Include="LLDFCFHQPQP.cs" />
+    <Compile Include="LMBPJGBGLNO.cs" />
+    <Compile Include="LMJPJFJJHOK.cs" />
+    <Compile Include="LMPIFDFMHKP.cs" />
+    <Compile Include="LNBGJQBMIPK.cs" />
+    <Compile Include="LNKHLJOKPMN.cs" />
+    <Compile Include="LNPEDCCCPPN.cs" />
+    <Compile Include="LOKGPPLGOHB.cs" />
+    <Compile Include="LPBJBOHMPBI.cs" />
+    <Compile Include="LPBPDPMJKNN.cs" />
+    <Compile Include="LPEQICNMHIL.cs" />
+    <Compile Include="LQCPKKCJPPB.cs" />
+    <Compile Include="LQHLOGDKHCQ.cs" />
+    <Compile Include="LQMJQNMJBLG.cs" />
+    <Compile Include="LQMPEFDFGBB.cs" />
+    <Compile Include="MBGHQMKEFKO.cs" />
+    <Compile Include="MBIOQICLCNO.cs" />
+    <Compile Include="MCBBQFMQNEE.cs" />
+    <Compile Include="MCBPLMFFGJC.cs" />
+    <Compile Include="MCMHEQDOMOI.cs" />
+    <Compile Include="MCNLIHMMLCF.cs" />
+    <Compile Include="MDBOHBDKMMM.cs" />
+    <Compile Include="MDFGNNIKFEP.cs" />
+    <Compile Include="MDFQEBOLLJN.cs" />
+    <Compile Include="MDLFMPEEHMP.cs" />
+    <Compile Include="MDLMHPELMDP.cs" />
+    <Compile Include="MDMEPHBJPHL.cs" />
+    <Compile Include="MEMQLOLDBQL.cs" />
+    <Compile Include="MFEJLCEHLHC.cs" />
+    <Compile Include="MFKCMLKCEEM.cs" />
+    <Compile Include="MFMMDFDHOEK.cs" />
+    <Compile Include="MGFQHOLQFQI.cs" />
+    <Compile Include="MGPKIPNIGLC.cs" />
+    <Compile Include="MHIDKMCBQEN.cs" />
+    <Compile Include="MHLQLMPHPHO.cs" />
+    <Compile Include="MHOCPCDCMHN.cs" />
+    <Compile Include="MJFJBJNDIFB.cs" />
+    <Compile Include="MJGHBMOOPMB.cs" />
+    <Compile Include="MKBCLPDCEFN.cs" />
+    <Compile Include="MKBLQFHLLBB.cs" />
+    <Compile Include="MKOENKCLJGF.cs" />
+    <Compile Include="MLDCGDPQJKM.cs" />
+    <Compile Include="MNBLBMJJHKQ.cs" />
+    <Compile Include="MODJLMKHQPL.cs" />
+    <Compile Include="MODPCQFLLOF.cs" />
+    <Compile Include="MQBNIGGNGPL.cs" />
+    <Compile Include="MQEOJBOGNDO.cs" />
+    <Compile Include="NBGHBPJIKKM.cs" />
+    <Compile Include="NBQDPNGNNML.cs" />
+    <Compile Include="NCJNIPIJBCP.cs" />
+    <Compile Include="NCMPFIDDKPF.cs" />
+    <Compile Include="NCNDQDBPNQN.cs" />
+    <Compile Include="NCPNMOQGGEG.cs" />
+    <Compile Include="NEMFLIFKDNO.cs" />
+    <Compile Include="NewBattleAnimation.cs" />
+    <Compile Include="NFFQQBGMKGE.cs" />
+    <Compile Include="NHFHIHGCNGI.cs" />
+    <Compile Include="NHGDDFNJIPM.cs" />
+    <Compile Include="NHKEEQMDHPQ.cs" />
+    <Compile Include="NHOOQNHPFOB.cs" />
+    <Compile Include="NHPGIPEOKID.cs" />
+    <Compile Include="NICKGLFHGKF.cs" />
+    <Compile Include="NIJBPFMLQMP.cs" />
+    <Compile Include="NJNDGELMMND.cs" />
+    <Compile Include="NKHMKQEGHEE.cs" />
+    <Compile Include="NKIFIJDMNEO.cs" />
+    <Compile Include="NLDFFJFQJBI.cs" />
+    <Compile Include="NLQPOLOJJQE.cs" />
+    <Compile Include="NNKKGGNIKKN.cs" />
+    <Compile Include="NNLOOFHPMNG.cs" />
+    <Compile Include="NNMQKEQFFJO.cs" />
+    <Compile Include="NODOBJOMQDI.cs" />
+    <Compile Include="NOGMMIFJQPE.cs" />
+    <Compile Include="NOHCFICLIQK.cs" />
+    <Compile Include="NOHEMGHONKK.cs" />
+    <Compile Include="NOIMMBKKHJB.cs" />
+    <Compile Include="NPCNBMPLBHM.cs" />
+    <Compile Include="NPHENGOQFLP.cs" />
+    <Compile Include="NPOFODNPJIL.cs" />
+    <Compile Include="NPOMOOBFCNI.cs" />
+    <Compile Include="NQHCFEFIOFB.cs" />
+    <Compile Include="OBFHPCGQCJQ.cs" />
+    <Compile Include="OCFKMLJBQKP.cs" />
+    <Compile Include="OCPDQGMMEMQ.cs" />
+    <Compile Include="ODKFNJJIFQG.cs" />
+    <Compile Include="OEJGFKMOQJG.cs" />
+    <Compile Include="OELLFMKIMFH.cs" />
+    <Compile Include="OFQNFMBFKPC.cs" />
+    <Compile Include="OGCFBNNPOQF.cs" />
+    <Compile Include="OGIHGEJKOGL.cs" />
+    <Compile Include="OGJHPMBEKCH.cs" />
+    <Compile Include="OGJJKKQPNMK.cs" />
+    <Compile Include="OHHOEHPICQF.cs" />
+    <Compile Include="OIDMQBFDIDM.cs" />
+    <Compile Include="OIHGFHCJQCL.cs" />
+    <Compile Include="OJBOKIQOOMM.cs" />
+    <Compile Include="OJKEHOQONMD.cs" />
+    <Compile Include="OJNJKONDHBB.cs" />
+    <Compile Include="OKCGKHQHCGE.cs" />
+    <Compile Include="OKCHLNIDDCC.cs" />
+    <Compile Include="OKCMKCMQOGD.cs" />
+    <Compile Include="OLGJIIEMHBM.cs" />
+    <Compile Include="OLLILOPJNHQ.cs" />
+    <Compile Include="OLLOFNEJEFC.cs" />
+    <Compile Include="ONDGHPBHGGG.cs" />
+    <Compile Include="ONDHMNQJHQG.cs" />
+    <Compile Include="ONGOGFNONDC.cs" />
+    <Compile Include="ONQQOCQBQIE.cs" />
+    <Compile Include="OONKBBPLJDI.cs" />
+    <Compile Include="OPLQGKOBBLB.cs" />
+    <Compile Include="OQCELKOKDFE.cs" />
+    <Compile Include="OQCOLFQILDJ.cs" />
+    <Compile Include="OQMNMPQEBIJ.cs" />
+    <Compile Include="OQNEQCIKBQJ.cs" />
+    <Compile Include="PBJKDKBOLHO.cs" />
+    <Compile Include="PC2DAddOrRemoveCameraTargetBehaviour.cs" />
+    <Compile Include="PC2DAddOrRemoveCameraTargetClip.cs" />
+    <Compile Include="PC2DAddOrRemoveCameraTargetTrack.cs" />
+    <Compile Include="PCJDECEEPNI.cs" />
+    <Compile Include="PCMPKICLBEM.cs" />
+    <Compile Include="PCOOJCCQDEO.cs" />
+    <Compile Include="PCPMGFBNBKK.cs" />
+    <Compile Include="PDCGOFBNGBN.cs" />
+    <Compile Include="PDFBHMMPDPF.cs" />
+    <Compile Include="PDLMPKMDBBQ.cs" />
+    <Compile Include="PEDFEBKECPI.cs" />
+    <Compile Include="PEFEGQMGLGQ.cs" />
+    <Compile Include="PFEJKIOPGPP.cs" />
+    <Compile Include="PHINQNMFEHC.cs" />
+    <Compile Include="PHMODFINECM.cs" />
+    <Compile Include="PIJIQKMKDPO.cs" />
+    <Compile Include="PJCCMHCDFJQ.cs" />
+    <Compile Include="PKQQEHKMOIJ.cs" />
+    <Compile Include="PLBBQPGCNGF.cs" />
+    <Compile Include="PLQFPBQEPJD.cs" />
+    <Compile Include="PMFBKQMHEJC.cs" />
+    <Compile Include="PNBFQPMIHDJ.cs" />
+    <Compile Include="PNDJHKBEPNM.cs" />
+    <Compile Include="PNEOGLLCBMK.cs" />
+    <Compile Include="PNFQPHHKJLJ.cs" />
+    <Compile Include="PNNDJCOKGIB.cs" />
+    <Compile Include="PNQIQMFEELP.cs" />
+    <Compile Include="PokeShaderReset.cs" />
+    <Compile Include="POOPQGNNKLF.cs" />
+    <Compile Include="PPCCQBMDFCF.cs" />
+    <Compile Include="PPCLLLNJKGH.cs" />
+    <Compile Include="PresentFXPlayer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyReference.cs" />
+    <Compile Include="QBCJMJBQJFM.cs" />
+    <Compile Include="QCPKMJONIGF.cs" />
+    <Compile Include="QDBCMHDINGL.cs" />
+    <Compile Include="QDDJHHIIMBH.cs" />
+    <Compile Include="QDHDQQEKMGO.cs" />
+    <Compile Include="QDIEOOCIEOL.cs" />
+    <Compile Include="QDLMGFQHBJQ.cs" />
+    <Compile Include="QEFFHGNCLIG.cs" />
+    <Compile Include="QFEIBBLLDQE.cs" />
+    <Compile Include="QGFPKNEBMGC.cs" />
+    <Compile Include="QGOBBBMEOKO.cs" />
+    <Compile Include="QHGJHJPBQBL.cs" />
+    <Compile Include="QHPGHOFCBQD.cs" />
+    <Compile Include="QHQFGHKIMMF.cs" />
+    <Compile Include="QIHCEHDLLLP.cs" />
+    <Compile Include="QIMIQJMLPGP.cs" />
+    <Compile Include="QJDPLGKKBQG.cs" />
+    <Compile Include="QJFLHFDQNPN.cs" />
+    <Compile Include="QJGQEJGNOQH.cs" />
+    <Compile Include="QLKJQPNKPBC.cs" />
+    <Compile Include="QLPJECCHOKI.cs" />
+    <Compile Include="QMBJOMBDDCI.cs" />
+    <Compile Include="QMDFDJEIEMO.cs" />
+    <Compile Include="QMIDMEFGIFG.cs" />
+    <Compile Include="QMLIFKPICQJ.cs" />
+    <Compile Include="QNFGLIHQQCD.cs" />
+    <Compile Include="QNOICBBNDGH.cs" />
+    <Compile Include="QOHCEBMQKMB.cs" />
+    <Compile Include="QQGJJNPLKME.cs" />
+    <Compile Include="QQLPHPBMHHQ.cs" />
+    <Compile Include="ScrollFire.cs" />
+    <Compile Include="Spin.cs" />
+    <Compile Include="SpinObject.cs" />
+    <Compile Include="TweenRotation.cs" />
+    <Compile Include="UIDragDropItem.cs" />
+    <Compile Include="UIDragResize.cs" />
+    <Compile Include="UISpriteData.cs" />
+    <Compile Include="UIToggle.cs" />
+    <Compile Include="UITweener.cs" />
+    <Compile Include="UnityEngine\PostProcessing\AmbientOcclusionModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\AntialiasingModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\BloomModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\BuiltinDebugViewsModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\ChromaticAberrationModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\ColorGradingCurve.cs" />
+    <Compile Include="UnityEngine\PostProcessing\ColorGradingModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\DepthOfFieldModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\DitheringModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\EyeAdaptationModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\FogModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\GrainModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\MotionBlurModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\PostProcessingModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\PostProcessingProfile.cs" />
+    <Compile Include="UnityEngine\PostProcessing\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\UserLutModel.cs" />
+    <Compile Include="UnityEngine\PostProcessing\VignetteModel.cs" />
+    <Compile Include="VolumetricFogAndMist\FogAreaCullingManager.cs" />
+    <Compile Include="VolumetricFogAndMist\FogVolume.cs" />
+    <Compile Include="VolumetricFogAndMist\IVolumetricFogRenderComponent.cs" />
+    <Compile Include="VolumetricFogAndMist\VolumetricFog.cs" />
+    <Compile Include="VolumetricFogAndMist\VolumetricFogPosT.cs" />
+    <Compile Include="VolumetricFogAndMist\VolumetricFogPreT.cs" />
+    <Compile Include="VolumetricFogAndMist\VolumetricFogProfile.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
